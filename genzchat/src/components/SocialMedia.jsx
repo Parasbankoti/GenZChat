@@ -1,21 +1,21 @@
 import React from "react";
 
 // assets
-import Instagram from "/assets/instagram.png";
-import WhatsApp from "/assets/whatsapp.png";
-import Bumble from "/assets/bumble.png";
-import Hinge from "/assets/hinge.png";
-import Jambau from "/assets/jambau.png";
-import Tinder from "/assets/tinder.png";
+import Instagram from "../assets/instagram.png";
+import WhatsApp from "../assets/whatsapp.png";
+import Bumble from "../assets/bumble.png";
+import Hinge from "../assets/hinge.png";
+import Jambau from "../assets/jambau.png";
+import Tinder from "../assets/tinder.png";
 
 export default function SocialMedia() {
   const icons = [
     { src: Instagram, name: "Instagram" },
-    { src: WhatsApp,  name: "WhatsApp"  },
-    { src: Bumble,    name: "Bumble"    },
-    { src: Hinge,     name: "Hinge"     },
-    { src: Jambau,    name: "Jambau"    },
-    { src: Tinder,    name: "Tinder"    },
+    { src: WhatsApp, name: "WhatsApp" },
+    { src: Bumble, name: "Bumble" },
+    { src: Hinge, name: "Hinge" },
+    { src: Jambau, name: "Jambau" },
+    { src: Tinder, name: "Tinder" },
   ];
 
   return (
